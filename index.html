@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    </div>
+    <header>
+        <a href="#" class="logo">Mohammad Ali Akmal Baig</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <div class="nav-bar" id="nav-links">
+            <a href="#contact" class="nav-items">Contact</a>
+            <a href="#projects" class="nav-items">Projects</a>
+            <a href="#skills" class="nav-items">Skills</a>
+            <a href="#about" class="nav-items">About</a>
+            <a href="#home" class="nav-items">Home</a>
+            
+        </div>
+    </header>
+    <main>
+        <div id="home" class="home" class="divsions" >
+            <br>
+            <h2>Hey, This is</h2>
+            <h1>Mohd Ali Akmal Baig</h1>
+            <p>Student  | Web Developer</p>
+        </div>
+        
+        <div id="about" class="about">
+            <h1 class="headings">About self</h1>
+            <div class="bio">
+                <img src="self.jpg" alt="Ali Akmal Baig" >
+                <p >I am Mohd Ali Akmal Baig, a Computer Science Engineering Undergraduate from Seshadri Rao Gudlavalleru Engineering College. Currently I am in 3rd year. Apart from the academic education, I have a very deep interest in Web Development.</p>
+            </div>
+
+            <div class="profiles">
+                <section>
+                    <a href="https://www.linkedin.com/in/mohd-ali-akmal-baig-57b325312/"><img src="ln.jpg" alt="linkedin"><h3>Linkedin</h3></a>
+                </section>
+                
+                <section>
+                    <a href="https://github.com/MohdAliAkmalBaig?"><img src="git.jpg" alt="github"></a><a href="https://github.com/MohdAliAkmalBaig?"><h3>Github</h3></a>
+                </section>
+            </div>
+        </div>
+
+        <div id="skills" class="skills">
+            <h1 class="headings">My Skills</h1>
+            <div class="skills-box">
+            <div id="html" class="my-skills"><p>HTML</p><img src="html.png" alt="html"></div>
+            <div id="css" class="my-skills"><p>CSS</p> <img src="css.png" alt="css"></div>
+            <div id="javascript" class="my-skills"><p>JavaScript</p> <img src="js.png" alt="js"></div>
+            <div id="python" class="my-skills"><p>Python</p> <img src="python.png" alt="py"></div>
+            <div id="java" class="my-skills"><p>Java</p> <img src="java.png" alt="java"></div>
+        </div>          
+        
+        
+        <div id="projects" class="projects">
+            <h1 class="headings">Projects</h1>
+            <div class="projects-box">
+                <div class="my-projects" id="landing-page">
+                    <div class="project-names">
+                        <a href="https://mohdaliakmalbaig.github.io/Landing-Page/"><h2>Landing Page</h2></a>
+                    </div>   
+                </div>
+                
+                <div class="my-projects" id="calculator">
+                    <div class="project-names">
+                        <a href="https://mohdaliakmalbaig.github.io/Calculator/"><h2>Calculator</h2></a>
+                    </div> 
+                </div>
+                <div class="my-projects" id="portfolio">
+                    <div class="project-names">
+                        <a href=""><h2>Portfolio</h2></a>
+                    </div>  
+                </div>
+            </div>    
+
+        <div id="contact" class="contact">
+                    <h1 class="headings">Contact Me</h1>
+                    <div class="contact-me">
+                        <h3>Email Me : <a href="mailto:mohdaliakmalbaig@gmail.com"> mohdaliakmalbaig@gmail.com</a></h3>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <hr>         
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Md Ali Akmal Baig. All rights reserved. Follow me on:</p>
+            </div>
+            
+            <a href="https://www.linkedin.com/in/mohd-ali-akmal-baig-57b325312/"><img src="ln.png" alt="linkedin"></a>
+            <a href="https://github.com/MohdAliAkmalBaig?"><img src="git.png" alt="github"></a>     
+    </footer>
+    <script>
+            document.getElementById('menu-icon').addEventListener('click', function() {
+              this.classList.toggle('active');
+            const navLinks = document.getElementById('nav-links');
+             if (this.classList.contains('active')) {
+               navLinks.style.display = 'flex';
+            } else {
+              navLinks.style.display = 'none';
+            }
+           });
+    </script>
+</body>
+</html>
